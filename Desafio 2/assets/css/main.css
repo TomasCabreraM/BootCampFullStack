@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#header1 {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    background-color: #262464;
+    height: 140px;
+    width: 100%;
+    background-image: url('../Imágenes/Fondo-Header.png');
+    background-size: cover;
+    align-items: center;
+    gap: 40px;
+    padding: 10px;
+}
+#body1 {
+    color: rgb(69, 70, 71);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #d9d9de;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+    padding-top: 50px;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+h3 {
+    color: #262464;
+    text-align: center;
+    border-top: 2px solid #262464;
+    padding: 0px;
+    margin: 0px;
+}
+h4 {
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    flex-wrap: wrap;
+}
+#footer {
+    display: flex;
+    width: 100%;
+    /* Asegura que ocupe todo el ancho */
+    background-color: #262464;
+    color: aliceblue;
+    height: 100px;
+    justify-content: center;
+    /* Centra el contenihorizontalment*/
+    align-items: center;
+    /* Centra el contenido verticalmente */
+}
+#Grid {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+#Grid img{
+    width: 100%;
+    max-width: 200px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#Logo {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
